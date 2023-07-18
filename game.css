@@ -1,0 +1,19 @@
+img{
+    height: 100px;
+    width:100px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.game{
+    text-align: center;
+    width:500px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Five equal columns */
+    grid-template-rows: repeat(5, 1fr);    /* Five equal rows */
+}
+body{
+margin: 0;
+background-color: rgb(131, 139, 158);
+}
