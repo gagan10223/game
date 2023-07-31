@@ -1,12 +1,14 @@
 img{
     height: 100px;
     width:100px;
+    border-radius: 50%;
 }
 .main{
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-between;
+}   
 .game{
+    padding-left: 200px;
     text-align: center;
     width:500px;
     display: grid;
@@ -16,4 +18,22 @@ img{
 body{
 margin: 0;
 background-color: rgb(131, 139, 158);
+}
+h1{
+    text-align: left;
+    color: rgb(200, 186, 169);
+    font-size: 28px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: rgb(91, 97, 154);
+
+    font-size: 28px;
+    font-weight: bold;
+
+}
+#found
+{
+    width:500px;
 }
