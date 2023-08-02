@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             list.forEach(img => img.src = 'images/what.png');
                             list = [];
                             counter = 0;
-                            }, 1000);
+                            }, 2000);
                         return;
                     }
                 }
@@ -80,7 +80,7 @@ function addnew(b)
     if (Array.from(document.getElementById('found').children).length === 8) {
         setTimeout(() => {
             window.alert("Good job, you won!");
-            random(); // Restart the game
-        }, 2000); // 2000 milliseconds (2 seconds) delay
+            random(); 
+        }, 2000); 
     }
 }
